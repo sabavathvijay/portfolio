@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(118, 145, 136, 0.649);
+    display:inline;
+   
+}
+
+
+
+
+
+.head{
+    display: flex;
+}
+
+
+
+/* Header */
+.header {
+    background-color: azure;
+    height: 10vh;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+    position: sticky;
+    top: 0;
+
+}
+
+.menu {
+
+    display: flex;
+    justify-content: space-around;
+    border: solid bisque 2px;
+    align-items: center;
+}
+
+.logo {
+    border: solid bisque 2px;
+
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Main */
+
+.main {
+    display: grid;
+    grid-template-columns: 1.3fr 4fr;
+
+}
+
+.side {
+
+    border: solid 2px gray;
+    height: 100vh;
+
+
+
+
+}
+
+.side{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+/* Profile*/
+.photo{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.side img{
+    height: 200px;
+    width: 200px ;
+    border-radius: 50%;
+    border: gold solid;
+}
+
+.name{
+    color: blue;
+    justify-self: center;
+   
+   
+}
+
+#name{
+
+     font-size: 30px;
+     padding: 20px 20px;
+    font-weight: bold;
+}
+#status{
+    font-size:25px ;
+    text-align: center;
+padding-bottom: 20px;
+}
+
+
+/* Contact */
+
+.contact{
+    
+    color: rgb(16, 18, 18);
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:space-evenly;
+    align-content: center;
+     font-weight: bold;
+     padding-left: 20px;
+     font-size: 17px;
+
+}
+.contact span{
+    color: blue;
+    font-size: 20px;
+}
+
+/* Social Media*/
+
+.smedia{
+
+   
+    padding-top: 30px;
+   display: flex;
+   justify-content: center;
+   
+ 
+    gap: 20px;
+}
+.smedia a img{
+    border: solid orange 2px;
+    height: 60px;
+    width: 60px;
+    
+    border-radius: 50%;
+     
+}
+
+/* Main bar */
+
+.line{
+    width:90%;
+    background-color: gray;
+    height: 2px;
+    justify-self:center;
+}
+
+
+
+.mainbar{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 3fr 4fr 3fr;
+   height: 100vh;
+}
+
+.mainbar .child{
+    border:  solid grey 2px;
+}
+
+
+#skills{
+
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+
+    grid-template-rows: 2fr 2fr 2fr ;
+     gap: 25px;
+     padding: 25px;
+}
+#skills .child{
+   
+
+    text-align: center;
+   
+}
+
+
+.size{
+    height: 90px;
+    width: 130px;
+
+}
+
+/*
+.title{
+    color: rgb(181, 30, 6);
+    text-align: center;
+ 
+  padding-top :30px; ;
+  font-weight: bolder;
+  font-size: 150px;
+    
+}
+
+*/
+
+
+
+
+/* Footer */
+
+.footer {
+
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    
+
+
+}
+
+.footer p {
+    position: absolute;
+    top: 40px;
+    padding-bottom: 40px;
+
+    align-items: center;
+
+}
+
+
