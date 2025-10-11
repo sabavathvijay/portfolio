@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 28px;
 }
 
 body {
@@ -304,6 +305,8 @@ padding-bottom: 20px;
     
 }
 
+
+
 .table{
     border: solid rgb(11, 11, 19);
     padding: 5px;
@@ -329,7 +332,7 @@ h1{
 .table td {
 
 height: 25px;
-padding: 30px;
+padding: 5px;
 
 }
 
@@ -358,23 +361,27 @@ text-align: center;
 
 
 .card{
-    height: 100%;
-    width:80%;
+    height: 160px;
+    width:150px;
+    padding: 10px;
     border-radius: 15px;
+    
+
 }
 
 .contents{
     justify-self:center;
-    margin-top: 20px;
+    margin-top: 10px;
     color: blue;
-    
+    height: 400px;
 }
 
 .size{
+    object-fit: cover;
     height: 3em;;
     width:60px;
-    height: 65%;
-    object-fit: cover;
+    height:70px ;
+    
     padding-bottom: 10px;
     
 
@@ -382,6 +389,7 @@ text-align: center;
 
 .skills{
     background-color: rgba(142, 142, 26, 0.216);
+    height: 100%;
 }
 
 
@@ -411,7 +419,7 @@ text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 10px;
+    row-gap: 10px;
 
 }
 
@@ -420,11 +428,11 @@ text-align: center;
 .container .item {
 
 border: solid 2px black;
-width: 260px;
-height: 200px;
+width: 100px;
+height: 70px;
 }
 .container .item img{
-    width: 100%;
+    width: 10;
     height: 100%;
     object-fit: cover;
 
@@ -527,6 +535,14 @@ Media Queries
     
 
 
+
+}
+.Skill{
+    height: 500px;
+    
+}
+.side{
+    height: 1000px;
 }
 
 
