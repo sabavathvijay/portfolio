@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 28px;
+   
+}
+
+.menu a{
+    font-size: 12px;
 }
 
 body {
-    background-color: rgba(82, 158, 133, 0.649);
+    background-color: rgba(33, 113, 87, 0.375);
     display:inline;
     position: sticky;
     top: 0px;
@@ -196,12 +200,13 @@ padding-bottom: 20px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 3fr 3fr 4fr 3fr;
-   height: 200vh;
-   background-color: rgba(185, 134, 73, 0.404);
+   height: 100%;
+   background-color: rgba(35, 231, 117, 0.371);
    margin-top: 10px;
    border:solid 2PX gray;
    border-radius: 45px;
    padding: 20px;
+   1
 
 }
 
@@ -546,4 +551,26 @@ Media Queries
 }
 
 
+}
+
+.header{
+    display: flex;
+    justify-content:;
+
+
+}
+
+.header div{
+
+    position: sticky;
+
+    top: 5px;
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.header div a{
+    width: 100%;
 }
