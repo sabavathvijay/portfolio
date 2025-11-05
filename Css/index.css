@@ -217,8 +217,9 @@ img {
 .project-grid {
     
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
+    width: 100%;
 }
 
 .project-card {
@@ -383,7 +384,20 @@ footer {
 
 /* --- Responsiveness (Mobile-First) --- */
 
+section {
+    padding: 6rem 1rem; /* This adds 1rem of left/right padding on mobile */
+}
+
+
 @media (max-width: 768px) {
+
+
+
+    section {
+        padding: 6rem 0;
+    }
+
+
     h1 { font-size: 2.5rem; }
     h2 { font-size: 2rem; }
 
