@@ -242,6 +242,8 @@ img {
     object-fit: cover;
 }
 
+
+
 .project-card h3,
 .project-card p,
 .project-card .project-links {
@@ -454,4 +456,15 @@ section {
 }
 .about-text li:hover{
      background-color: rgba(62, 116, 125, 0.782);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit:contain;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex
+;
 }
