@@ -395,6 +395,14 @@ section {
 
 
 
+    .project-grid {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    width: 100%;
+}
+
     section {
         padding: 6rem 0;
     }
