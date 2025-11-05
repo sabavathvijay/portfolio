@@ -4,267 +4,337 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Vijay - Portfolio</title>
     <link rel="stylesheet" href="./Css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
 
-
-    <div class="ALL">
-
-
-
-    <!--Header -->
-    <header class="header head">
-
-        <div class="nav">
-
-        <div class="logo">
-            Portfolio
+    <header class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">SABAVATH VIJAY</a>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#internships">Internships</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
-
-
-        <div class="menu">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#education">Education</a>
-            <a href="#Portfolio">Portfolio</a>
-
-        </div>
-</div>
-
     </header>
 
-
-
-
-
-
-    <!--Main-->
-    <main class="main">
-
-        <!--Side-->
-
-        <div class="side">
-
-            <div class="profile">
-
-                <!--Profile-->
-                <div class="photo">
-                    <img src="./Css/media/257aee2c-5db1-40e3-9abb-ca3ed5a8ae9e.jpg" alt="photo">
-
-                </div>
-                <div class="name">
-                    <p id="name">
-                        SABAVATH VIJAY
-                    </p>
-                    <p id="status">
-                        (Student)
-                    </p>
-                </div>
-                <div class="line"></div>
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <img src="./Css/media/image.png" alt="">
+                <h1>Hi, I'm Sabavath Vijay</h1>
+                <p class="subtitle">Full-Stack developer & AI Enthusiast</p>
+                <a href="#projects" class="cta-button">View My Work</a>
             </div>
+        </section>
 
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Hello! I'm Vijay, a Computer Science Engineering student passionate about Full Stack
+                            Development and Artificial Intelligence. I love learning new technologies and building
+                            projects that combine creativity, logic, and innovation.
+                        </p>
+                        <p>Here are a few technologies I've been working with recently:</p>
+                        <h2 style="font-size: 24px; color: rgb(18, 54, 108); text-decoration: underline;">Skills</h2>
+                        <ul class="skills-list skils">
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>Python</li>
+                            <li>Java and Spring-boot</li>
+                            <li>Spring-boot with PostgreSQL</li>
 
-            <!--Contact-->
-            <div class="contact ">
-                <p>Email:<br> <span>vijaysabavath8@gmail.com</span></p>
-                <p>Phone:<br><span>9346590543</span> </p>
-
-                <p>Location:<br><span>Hyderabad</span> </p>
-                <div class="line"></div>
-            </div>
-
-
-            <!--Social Meadia-->
-            <div class="smedia">
-                <a href="https://in.linkedin.com/in/sabavath-vijay-128b81261">
-                    <img src="./Css/media/Linkedin.png">
-                </a>
-                <a href="https://github.com/sabavathvijay">
-
-
-                    <img src="./Css/media/github.png">
-                </a>
-
-
-
-            </div>
-
-
-
-        </div>
-
-
-
-        <div class="mainbar">
-
-
-            <div id="about" class="child title">
-                <div class="content">
-
-
-                    <h1>About</h1>
-                    <p>
-                        A Computer Science Student skilled in Python, Java, and problem-solving, with experience
-                        in developing scalable web applications and AI-powered solutions. Strong foundation in Data
-                        Structures,
-                        Algorithms, and OOPs. Collaborative and Passionate to build innovative software products and
-                        contribute
-                        impactful technology solutions.
-                    </p>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div id="education" class="child title education">
+        </section>
 
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>
+                    <strong>My Projects</strong>
+                    <br>
+                    <p style="font-size: 24px;">These are the basic projects </p>
+                </h2>
 
-                <div class="content">
-                    <h1>Education</h1>
-                    <table border="1px" class="table">
-                        <thead>
-                            <tr>
-                                <th>Study</th>
-                                <th>College/<br>Institute</th>
-                                <th>Location</th>
-                                <th>
-                                    CGPA/ %
-                                </th>
-                                <th>
-                                    Year
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>BTech</td>
-                                <td>Kommuri Pratap Reddy Institute of Technology<br>(KPRIT) </td>
-                                <td>Hyderabad</td>
-                                <td>
-                                    82.8%
-                                </td>
-                                <td>
-                                    2026
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Intermediate</td>
-                                <td>T.T.W.R Jr College </td>
-                                <td>Narsapur </td>
-                                <td>
-                                    79.6%
-                                </td>
-                                <td>
-                                    2022
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Board of Secondary Education </td>
-                                <td>T.S.W.R E.I.S Jr College </td>
-                                <td>Hathnoora </td>
-                                <td>
-                                    10.0
-                                </td>
-                                <td>
-                                    2020
-                                </td>
-                            </tr>
+                <div class="project-grid">
 
-                        </tbody>
-                    </table>
+                    <div class="project-card">
+                        <img src="./Css/Projects/project1.jpg" alt="Project1">
+                        <h3>Background colour change</h3>
+                        <p>
+                            This is a simple basic Color change Project , implemented using <br>
+                            HTML, CSS and Javascript
+                        </p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="./Css/Projects/project2.jpg" alt="Project 2">
+                        <h3>TO-DO LIST</h3>
+                        <p>
+                            This is a simple basic TO-DO LIST  Project with delete and  Task Done Buttons , implemented using <br>
+                            HTML, CSS and Javascript
+                        </p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="./Css/Projects/project3.jpg" alt="Project 3 ">
+                        <h3>RANDOM QUOTES GENERATOR </h3>
+                         <p>
+                            This is a simple basic Random Quotes Generator Project, implemented using <br>
+                            HTML, CSS and Javascript
+                        </p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./Css/Projects/project4.jpg" alt="Project 3 Screenshot">
+                        <h3>COUNTER </h3>
+                         <p>
+                            This is a simple basic Counter Project with Increment, Decrement and Reset buttons , implemented using <br>
+                            HTML, CSS and Javascript
+                        </p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./Css/Projects/prject5.png" alt="Project 3 Screenshot">
+                        <h3>Messege Display </h3>
+                         <p>
+                            This is a simple basic Messege display Project with Input box  and send buttons , implemented using <br>
+                            HTML, CSS and Javascript
+                        </p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="child title Skill ">
-                <h1>Skills</h1>
+        </section>
+        <section id="achievements" class="achievements">
+            <div class="container">
+                <h2>Achievements</h2>
+                <div class="achievement-grid">
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Winner - Smart India Hackathon 2025</h3>
+                        <p>
+                            Led "Team Flash" to first place in a national-level competition. We developed 'EcoSort AI,'
+                            an innovative browser-based tool using TensorFlow.js for real-time waste classification.
+                        </p>
+
+                        <a href="https://sabavathvijay.github.io/SIH-Hackathon-2025/">EcoSort</a>
+                    </div>
+
+                    <!--
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+               
+                <h3>5-Star Coder (HackerRank)</h3>
                 <p>
-                    <strong>😊 I'M GOOD AT </strong>
+                    Achieved a 5-star gold badge in the Python programming domain on HackerRank, solving over 100+ data structures and algorithm challenges.
                 </p>
-                <div id="skills" class="child title content contents ">
-
-
-                    <div class="html child card"><span>HTML</span><br>
-                        <hr>
-                        <img src="./Css/media/HTML.png" class="size">
-                    </div>
-                    <div class="css child card"><span>CSS</span><br>
-                        <hr>
-                        <img src="./Css/media/Css.png" class="size">
-                    </div>
-                    <div class="js child card"><span>Javascript</span><br>
-                        <hr>
-                        <img src="./Css/media/js.jpg" class="size">
-                    </div>
-                    <div class="java child card"><span>Java</span><br>
-                        <hr>
-                        <img src="./Css/media/Java.png" class="size">
-                    </div>
-                    <div class="python child card"><span>Python</span><br>
-                        <hr>
-                        <img src="./Css/media/Python.jpg" class="size">
-                    </div>
-                    <div class="springboot child card"><span>Spring Boot</span><br>
-                        <hr>
-                        <img src="./Css/media/spring boot.jpg" class="size">
-                    </div>
-                    <div class="nodejs child card"><span> Node.js & Express.js</span><br>
-                        <hr>
-                        <img src="./Css/media/node-express js.png " class="size">
-                    </div>
-
-
-                    <div class="django child card"><span>Django</span><br>
-                        <hr>
-                        <img src="./Css/media/django.png" class="size">
-                    </div>
-
-
-
-                    
-                </div>
-
+               
             </div>
-            <div id="Portfolio" class="child title">
-                <h1>Portfolio</h1>
-                <div class="container">
-                    <div class="item">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnbgngItafV0R4IPqONSTsQM7Fo1Mgl-8j8g&s" alt="ecommerce">
-                    <p>
-                      
-                    </p>
-                    </div>
-                    <div class="item">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnbgngItafV0R4IPqONSTsQM7Fo1Mgl-8j8g&s" alt="ecommerce">
-                    </div><div class="item">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnbgngItafV0R4IPqONSTsQM7Fo1Mgl-8j8g&s" alt="ecommerce">
-                    </div><div class="item">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnbgngItafV0R4IPqONSTsQM7Fo1Mgl-8j8g&s" alt="ecommerce">
-                    </div><div class="item">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnbgngItafV0R4IPqONSTsQM7Fo1Mgl-8j8g&s" alt="ecommerce">
-                    </div>
-                    
 
+             -->
 
                 </div>
             </div>
+        </section>
+
+        <section id="internships" class="internships">
+            <div class="container">
+                <h2>Internships</h2>
+                <div class="internship-timeline">
+
+                    <div class="internship-card">
+                        <h3>Software Developer Intern</h3>
+                        <h4><a href="https://turtil.co/" target="_blank" rel="noopener noreferrer">Turtil</a> | Remote
+                        </h4>
+                        <p class="internship-date">June 2024 - August 2024</p>
+                        <ul class="internship-duties">
+                            <li>Developed and maintained production-grade microservices using FastAPI and Python,
+                                focusing on scalable backend architecture.</li>
+                            <li>Implemented AI-powered validation using TF-IDF and Logistic Regression for text
+                                similarity and accuracy checks.</li>
+                            <li>Containerized services using Docker, improving deployment efficiency and reliability.
+                            </li>
+                            <li>Collaborated with a cross-functional team in an Agile environment, contributing to
+                                design discussions, code reviews, and sprint planning.</li>
+                            <li>Wrote unit and integration tests to ensure high code quality and performance
+                                consistency.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
 
 
 
-            <div id="Portfolio" class="footer child title">
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2>Gallery</h2>
+                <p class="gallery-subtitle">A few of my favorite professional moments.</p>
 
-                Copyrights
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide">
+                            <img src="./Css/photos/pic1.jpeg" alt="Our team at the SIH 2025 Hackathon">
+                            <div class="slide-caption">
+                                SIH 2025 Hackathon Winner🏅
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="./Css/photos/pic2.jpeg" alt="Our team at the SIH 2025 Hackathon">
+                            <div class="slide-caption">
+
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="./Css/photos/pic3.jpeg" alt="Our team at the SIH 2025 Hackathon">
+                            <div class="slide-caption">
+
+                            </div>
+                        </div>
+
+
+                        <div class="slide">
+                            <img src="./Css/photos/pic5.jpeg" alt="Our team at the SIH 2025 Hackathon">
+                            <div class="slide-caption">
+
+                            </div>
+                        </div>
+
+
+                        <div class="slide">
+                            <img src="./Css/photos/pic5.jpeg" alt="Our team at the SIH 2025 Hackathon">
+                            <div class="slide-caption">
+
+                            </div>
+                        </div>
+
+
+                        <div class="slide">
+                            <img src="./Css/photos/turtle2.jpeg" alt="Our team at the SIH 2025 Hackathon">
+                            <div class="slide-caption">
+                                Internship - Turtle 😊
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="./Css/photos/turtle.jpeg" alt="Our team at the SIH 2025 Hackathon">
+                            <div class="slide-caption">
+
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img src="./Css/photos/turtle3.jpeg" alt="Our team at the SIH 2025 Hackathon">
+                            <div class="slide-caption">
+
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <img src="./Css/photos/turtle4.jpeg" alt="Our team at the SIH 2025 Hackathon">
+                            <div class="slide-caption">
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+
+                    <button class="slider-btn btn-prev">&larr;</button>
+                    <button class="slider-btn btn-next">&rarr;</button>
+                </div>
 
             </div>
+        </section>
 
-        </div>
 
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p> <strong>
+                        I'm always open to discussing new projects or opportunities. Feel free to reach out!
+                    </strong>
+
+                </p>
+
+                <div class="contact _33x100">
+                    <div class="inner">
+                        <p>Email:<br> <span>vijaysabavath8@gmail.com</span></p>
+                        <p>Phone:<br><span>9346590543</span> </p>
+
+                        <p>Location:<br><span>Hyderabad</span> </p>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <a href="mailto: vijaysabavath8@gmail.com" class="cta-button">Email Me</a>
+                <div class="social-links">
+                    <a href="https://in.linkedin.com/in/sabavath-vijay-128b81261" target="_blank"
+                        rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/sabavathvijay" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-github"></i></a>
+
+                </div>
+            </div>
+        </section>
     </main>
 
-    <hr>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
 
-
-</div>
-
-
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
